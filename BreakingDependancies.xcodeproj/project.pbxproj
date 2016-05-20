@@ -13,6 +13,14 @@
 		8CD7D6DF1CEF53C500EC78EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD7D6DE1CEF53C500EC78EE /* Assets.xcassets */; };
 		8CD7D6E21CEF53C500EC78EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD7D6E01CEF53C500EC78EE /* LaunchScreen.storyboard */; };
 		8CD7D6ED1CEF53C500EC78EE /* BreakingDependanciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D6EC1CEF53C500EC78EE /* BreakingDependanciesTests.swift */; };
+		8CD7D6FC1CEF544F00EC78EE /* MusicAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D6FB1CEF544F00EC78EE /* MusicAnalytics.m */; };
+		8CD7D7011CEF555800EC78EE /* MusicDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D7001CEF555800EC78EE /* MusicDiff.m */; };
+		8CD7D7041CEF569300EC78EE /* MusicDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D7031CEF569300EC78EE /* MusicDatabase.m */; };
+		8CD7D7071CEF57D900EC78EE /* MusicTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D7061CEF57D900EC78EE /* MusicTrack.m */; };
+		8CD7D70A1CEF5C4E00EC78EE /* MusicTrackListen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D7091CEF5C4E00EC78EE /* MusicTrackListen.m */; };
+		8CD7D70D1CEF5DFC00EC78EE /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D70C1CEF5DFC00EC78EE /* NetworkManager.m */; };
+		8CD7D7101CEF60B600EC78EE /* DatabaseTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D70F1CEF60B600EC78EE /* DatabaseTransaction.m */; };
+		8CD7D7131CEF60FC00EC78EE /* DatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7D7121CEF60FC00EC78EE /* DatabaseConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,23 @@
 		8CD7D6E81CEF53C500EC78EE /* BreakingDependanciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingDependanciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD7D6EC1CEF53C500EC78EE /* BreakingDependanciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDependanciesTests.swift; sourceTree = "<group>"; };
 		8CD7D6EE1CEF53C500EC78EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD7D6F91CEF544F00EC78EE /* BreakingDependancies-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreakingDependancies-Bridging-Header.h"; sourceTree = "<group>"; };
+		8CD7D6FA1CEF544F00EC78EE /* MusicAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicAnalytics.h; sourceTree = "<group>"; };
+		8CD7D6FB1CEF544F00EC78EE /* MusicAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicAnalytics.m; sourceTree = "<group>"; };
+		8CD7D6FF1CEF555800EC78EE /* MusicDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDiff.h; sourceTree = "<group>"; };
+		8CD7D7001CEF555800EC78EE /* MusicDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDiff.m; sourceTree = "<group>"; };
+		8CD7D7021CEF569300EC78EE /* MusicDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDatabase.h; sourceTree = "<group>"; };
+		8CD7D7031CEF569300EC78EE /* MusicDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDatabase.m; sourceTree = "<group>"; };
+		8CD7D7051CEF57D900EC78EE /* MusicTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTrack.h; sourceTree = "<group>"; };
+		8CD7D7061CEF57D900EC78EE /* MusicTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTrack.m; sourceTree = "<group>"; };
+		8CD7D7081CEF5C4E00EC78EE /* MusicTrackListen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTrackListen.h; sourceTree = "<group>"; };
+		8CD7D7091CEF5C4E00EC78EE /* MusicTrackListen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTrackListen.m; sourceTree = "<group>"; };
+		8CD7D70B1CEF5DFC00EC78EE /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		8CD7D70C1CEF5DFC00EC78EE /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		8CD7D70E1CEF60B600EC78EE /* DatabaseTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseTransaction.h; sourceTree = "<group>"; };
+		8CD7D70F1CEF60B600EC78EE /* DatabaseTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTransaction.m; sourceTree = "<group>"; };
+		8CD7D7111CEF60FC00EC78EE /* DatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConnection.h; sourceTree = "<group>"; };
+		8CD7D7121CEF60FC00EC78EE /* DatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +102,24 @@
 		8CD7D6D61CEF53C500EC78EE /* BreakingDependancies */ = {
 			isa = PBXGroup;
 			children = (
-				8CD7D6D71CEF53C500EC78EE /* AppDelegate.swift */,
-				8CD7D6D91CEF53C500EC78EE /* ViewController.swift */,
-				8CD7D6DB1CEF53C500EC78EE /* Main.storyboard */,
-				8CD7D6DE1CEF53C500EC78EE /* Assets.xcassets */,
-				8CD7D6E01CEF53C500EC78EE /* LaunchScreen.storyboard */,
-				8CD7D6E31CEF53C500EC78EE /* Info.plist */,
+				8CD7D7141CEF628700EC78EE /* App Gumph */,
+				8CD7D6FA1CEF544F00EC78EE /* MusicAnalytics.h */,
+				8CD7D6FB1CEF544F00EC78EE /* MusicAnalytics.m */,
+				8CD7D7051CEF57D900EC78EE /* MusicTrack.h */,
+				8CD7D7061CEF57D900EC78EE /* MusicTrack.m */,
+				8CD7D6FF1CEF555800EC78EE /* MusicDiff.h */,
+				8CD7D7001CEF555800EC78EE /* MusicDiff.m */,
+				8CD7D7021CEF569300EC78EE /* MusicDatabase.h */,
+				8CD7D7031CEF569300EC78EE /* MusicDatabase.m */,
+				8CD7D70E1CEF60B600EC78EE /* DatabaseTransaction.h */,
+				8CD7D70F1CEF60B600EC78EE /* DatabaseTransaction.m */,
+				8CD7D7111CEF60FC00EC78EE /* DatabaseConnection.h */,
+				8CD7D7121CEF60FC00EC78EE /* DatabaseConnection.m */,
+				8CD7D7081CEF5C4E00EC78EE /* MusicTrackListen.h */,
+				8CD7D7091CEF5C4E00EC78EE /* MusicTrackListen.m */,
+				8CD7D6F91CEF544F00EC78EE /* BreakingDependancies-Bridging-Header.h */,
+				8CD7D70B1CEF5DFC00EC78EE /* NetworkManager.h */,
+				8CD7D70C1CEF5DFC00EC78EE /* NetworkManager.m */,
 			);
 			path = BreakingDependancies;
 			sourceTree = "<group>";
@@ -94,6 +131,19 @@
 				8CD7D6EE1CEF53C500EC78EE /* Info.plist */,
 			);
 			path = BreakingDependanciesTests;
+			sourceTree = "<group>";
+		};
+		8CD7D7141CEF628700EC78EE /* App Gumph */ = {
+			isa = PBXGroup;
+			children = (
+				8CD7D6D71CEF53C500EC78EE /* AppDelegate.swift */,
+				8CD7D6D91CEF53C500EC78EE /* ViewController.swift */,
+				8CD7D6DB1CEF53C500EC78EE /* Main.storyboard */,
+				8CD7D6DE1CEF53C500EC78EE /* Assets.xcassets */,
+				8CD7D6E01CEF53C500EC78EE /* LaunchScreen.storyboard */,
+				8CD7D6E31CEF53C500EC78EE /* Info.plist */,
+			);
+			name = "App Gumph";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD7D70D1CEF5DFC00EC78EE /* NetworkManager.m in Sources */,
+				8CD7D70A1CEF5C4E00EC78EE /* MusicTrackListen.m in Sources */,
+				8CD7D7011CEF555800EC78EE /* MusicDiff.m in Sources */,
+				8CD7D7041CEF569300EC78EE /* MusicDatabase.m in Sources */,
+				8CD7D7131CEF60FC00EC78EE /* DatabaseConnection.m in Sources */,
+				8CD7D7101CEF60B600EC78EE /* DatabaseTransaction.m in Sources */,
+				8CD7D6FC1CEF544F00EC78EE /* MusicAnalytics.m in Sources */,
+				8CD7D7071CEF57D900EC78EE /* MusicTrack.m in Sources */,
 				8CD7D6DA1CEF53C500EC78EE /* ViewController.swift in Sources */,
 				8CD7D6D81CEF53C500EC78EE /* AppDelegate.swift in Sources */,
 			);
@@ -327,10 +385,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BreakingDependancies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.stringerstheory.BreakingDependancies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreakingDependancies/BreakingDependancies-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,10 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BreakingDependancies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.stringerstheory.BreakingDependancies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreakingDependancies/BreakingDependancies-Bridging-Header.h";
 			};
 			name = Release;
 		};
