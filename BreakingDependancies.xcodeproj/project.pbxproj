@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C3D565B1DF80E3600237324 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8CD7D6D41CEF53C500EC78EE /* BreakingDependancies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingDependancies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD7D6D71CEF53C500EC78EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD7D6D91CEF53C500EC78EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		8CD7D6CB1CEF53C500EC78EE = {
 			isa = PBXGroup;
 			children = (
+				8C3D565B1DF80E3600237324 /* README.md */,
 				8CD7D6D61CEF53C500EC78EE /* BreakingDependancies */,
 				8CD7D6EB1CEF53C500EC78EE /* BreakingDependanciesTests */,
 				8CD7D6D51CEF53C500EC78EE /* Products */,
@@ -392,6 +394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BreakingDependancies/BreakingDependancies-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -405,6 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.stringerstheory.BreakingDependancies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BreakingDependancies/BreakingDependancies-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -451,6 +455,7 @@
 				8CD7D6F31CEF53C500EC78EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD7D6F41CEF53C500EC78EE /* Build configuration list for PBXNativeTarget "BreakingDependanciesTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +464,7 @@
 				8CD7D6F61CEF53C500EC78EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
